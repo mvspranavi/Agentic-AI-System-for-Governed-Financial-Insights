@@ -1,16 +1,14 @@
-# Agentic AI System for Governed Financial Insights (Canada 🇨🇦)
+# Agentic AI System for Governed Financial Insights 
 
 ## Enterprise-grade Agentic AI workflow built with LangGraph for governed, auditable financial insights in regulated environments.
 
 This project demonstrates how autonomous AI agents can safely collaborate to analyze financial data, generate insights, enforce validation guardrails, and produce executive-ready reports — with a mandatory human-in-the-loop approval checkpoint.
 
-The system is intentionally designed to reflect Canadian regulated environments, including:
+The system is intentionally designed to reflect regulated environments, including:
 
 - Banking & Credit Unions
 - Insurance & Risk Analytics
 - Public Sector / Regulatory Reporting
-
-  <img width="1536" height="1024" alt="Agentic AI System" src="https://github.com/user-attachments/assets/b0010981-8b49-44bf-9cb6-3a9aee54ff15" />
 
 ## System Overview
 
@@ -29,9 +27,6 @@ Validation / Guardrail Agent
 Executive Report Agent
    ↓
 Human-in-the-Loop Approval
-
-![Agentic Ai Financial Insights Workflow](https://github.com/user-attachments/assets/a691a495-0766-4594-be8a-1b8ebb49a995)
-
 
 Each agent has a **single responsibility** and communicates through a shared, typed state managed by LangGraph.
 
@@ -89,10 +84,8 @@ Reports are only finalized after successful validation and human approval.
 Approve report? (y/n): y
 Human approved report
 Workflow execution completed
-![Approval granted](https://github.com/user-attachments/assets/030a1c47-3a47-4a84-8a78-da487c5cf9bf)
 
 ## Approval rejected
 
 Approve report? (y/n): n
 Human requested changes / rejected report
-![Approval rejected](https://github.com/user-attachments/assets/8f7d9e56-9de5-4922-8d46-d42fe767697c)
